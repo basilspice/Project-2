@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+}
+
+.charCard {
+  border: 2px solid purple;
+  border-radius: 10%;
+  width: 300px;
+  margin: 30%;
+  background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
+  background-position: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+.locCard {
+  border: 2px solid purple;
+  border-radius: 10%;
+  width: 300px;
+  background-color: darkslateblue;
+  margin: 30%;
+  background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
+  background-position: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+.avatar {
+  display: flex;
+  flex: auto;
+  border-radius: 40%;
+  border: 2px solid purple;
+}
+.epCard {
+  border: 2px solid purple;
+  border-radius: 10%;
+  width: 300px;
+  margin: 30%;
+  background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
+  background-position: center;
+  text-shadow: 1px 1px 2px white;
+}
+/* .main {
+background-image: url("https://i.postimg.cc/j5V5gHTd/happyrick.jpg");
+background-position: center;
+background-size: cover;
+} */
+h1,
+h2,
+h3 {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  background-image: linear-gradient(
+    to bottom left,
+    darkslateblue,
+    lightslategrey
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  }
+
+nav img {
+  max-height: 100px;
+  padding: 5px;
+  /* margin: 5px 20px 5px 0; */
+  display: inline-block;
+  vertical-align: middle;
+}
+nav img:hover {
+  background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
+  background-position: center;
+  border-radius: 5em;
+}
+
+nav h1 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2em;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 0px 20px 0px 10%;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightslategrey;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+
+form {
+  justify-content: center;
+}
+.charBody {
+  background-image: url("./images/happyrick.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  height: 175%;
+}
+
+.locBody {
+  background-image: url("./images/pointingrick.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  height: 175%;
+}
+
+.epiBody {
+  background-image: url("https://i.postimg.cc/4dHQ9kv2/rick-and-morty-heist-glasses.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  height: 175%;
+}
+
+h4 {
+  font-size: 2em;
+  color: lightgoldenrodyellow;
+  text-shadow: 1px 1px 2px purple;
+}
+
+.homeBody {
+  background-image: url("./images/people.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+  height: 175%;
+}
