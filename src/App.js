@@ -20,6 +20,7 @@ export default function App() {
     <main className="main">
       <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/home' element={<Home />} />
       <Route path='/character' element={<Character />} />
       <Route path='/location' element={<Location />} />
       <Route path='/episode' element={<Episode />} />
