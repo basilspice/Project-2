@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Links
 
-## Available Scripts
+- [Main Repo](https://git.generalassemb.ly/basilbreton/Project2)
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## API
 
-### `npm test`
+Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+```
+{data: {
+	"id": 2,
+"name": "Morty Smith",
+"status": "Alive",
+"species": "Human",
+"type": "",
+"gender": "Male",
+"origin": {
+"name": "unknown",
+"url": ""
+},
+"location": {
+"name": "Citadel of Ricks",
+"url": "https://rickandmortyapi.com/api/location/3"
+},
+"image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+"episode": [
+} }
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Wireframes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-### `npm run eject`
+- [WireFrame](https://wireframepro.mockflow.com/view/MNedeyL86h)
+- [FlowChart](https://lucid.app/lucidchart/2ea1ce25-df0c-480d-9382-d0efa46372ad/view?page=0_0#)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### MVP/PostMVP - 5min
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### MVP EXAMPLE
+- Find and use external api 
+- Render data on page 
+- Allow user to interact with the page via searching for location, episode or character
 
-## Learn More
+#### PostMVP EXAMPLE
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Returned results will be able to be clicked on and search for those characters
+- Save a character, and location and the results will tell you any episodes of that combination
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Components
+##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-### Code Splitting
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Component | Description | 
+| --- | :---: |  
+| App | This will make the initial data pull and include React Router| 
+| Nav | This will render the header include the nav | 
+| Episodes | This will render the search function for episodes and display the information
+| Characters | This will render the search function for episodes and display the information
+| Location | This will render the search function for episodes and display the information
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
-### Making a Progressive Web App
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form (with search function) | H | 8hrs|  |  |
+| Working with API | H | 3hrs|  |  |
+| Creating structure of page | H | 4hrs| | |
+| Location Component | H | 6hrs| | |
+| Episodes Component | H | 6hrs| | |
+| Characters Component | H | 6hrs| | |
+| Nav Component (links, routes, navigates) | H | 8hrs| | |
+| CSS structuring (cards, layouts, colors,) | H | 4hrs| | |
+| Total | H | 43hrs| | |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Additional Libraries
+ Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Code Snippet
 
-### Deployment
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
