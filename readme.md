@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [Main Repo](https://git.generalassemb.ly/basilbreton/Project2)
+- [Main Repo](https://github.com/basilspice/Project-2)
 
 
 ## Project Description
