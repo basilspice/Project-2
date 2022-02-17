@@ -26,8 +26,9 @@
 .avatar {
   display: flex;
   flex: auto;
-  border-radius: 20px;
-  border: 2px solid purple;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom: 2px solid purple;
   width: 10em;
 }
 .epCard {
