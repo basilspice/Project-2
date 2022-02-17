@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -33,6 +34,17 @@
   border: 2px solid purple;
   border-radius: 10%;
   width: 300px;
+  margin: 30%;
+  background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
+  background-position: center;
+  text-shadow: 1px 1px 2px white;
+}
+
+.errorCard {
+  border: 2px solid purple;
+  border-radius: 10%;
+  width: 300px;
+  background-color: darkslateblue;
   margin: 30%;
   background-image: url("https://i.postimg.cc/ZnngQ5nn/rickandmortyportal.jpg");
   background-position: center;

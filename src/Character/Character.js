@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import Error from "../Error/Error"
 export default function Character() {
   const [charName, setCharName] = useState("");
   const [charData, setCharData] = useState({});
@@ -12,16 +12,21 @@ export default function Character() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => setCharData(data.results))
-      .catch(() => console.log("oops error"));
-
+      .catch(() => setErrorCard(errorCard))
+      
      
-  };
+  
+  
 
+    }
   const handleChange = (event) => {
     setCharName(event.target.value);
   };
 
-  if (charData[0]) {
+  if (errorCard) {
+    return( <div>{<Error/>}</div>
+    )
+    }else if (charData[0]) {
     return (
       <div className="charBody">
         <div className="App">
