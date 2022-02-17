@@ -2,7 +2,7 @@ import {Route, Link, Routes} from 'react-router-dom'
 
 function Nav() {
     return(
-<nav>
+<div>
 <Link to='/'>
 
   <img
@@ -14,6 +14,8 @@ function Nav() {
   <Link to="/character">Characters</Link>
   <Link to="/location">Locations</Link>
   <Link to="/episode">Episodes</Link>
-</nav>
+</div>
     )}
 export default Nav;
+
+<Link to='/'><img src="https://i.postimg.cc/JnnsBrRj/pngegg-2.png" alt=""/></Link>

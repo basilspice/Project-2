@@ -5,16 +5,17 @@ import Location from "./Location/Location";
 import Character from "./Character/Character";
 import Episode from "./Episode/Episode"
 import Home from "./Home/Home"
-
+import About from "./About/About"
+import Error from "./Error/Error"
 import "./styles.css";
 
 export default function App() {
   return (
-   
+    <>
    <div>
      <nav>
        <Nav />
-     </nav>
+    </nav>
 
     
     <main className="main">
@@ -25,8 +26,13 @@ export default function App() {
       <Route path='/location' element={<Location />} />
       <Route path='/episode' element={<Episode />} />
       </Routes>
+    <About />
     </main>
+
+    
     </div>
+    </>
+    
     
   );
 }
