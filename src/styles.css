@@ -81,7 +81,6 @@ nav img {
   max-height: 60px;
   padding: 0px;
   margin: 0px;
-  /* margin: 5px 20px 5px 0; */
   display: inline-block;
   vertical-align: middle;
 }
@@ -154,9 +153,8 @@ form {
   display: flex;
   flex-direction: column;
   vertical-align: bottom;
-  font-size: 1em;
+  font-size: 1rem;
   color: #286c79;
-  text-shadow: 1px 1px 2px lightslategray;
   text-decoration: none;
   position: fixed;
   bottom: 0;
@@ -167,14 +165,14 @@ form {
 button {
   text-decoration: none;
   color: darkslateblue;
-  font-size: 1.55rem;
+  font-size: 1.4rem;
   }
 button:hover {
   background-color: lightgrey;
   color: darkslateblue;
   box-shadow: 0 12px 16px 0 rgba(72,61,139,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   border-radius: 5px;
-  border: solid 2px black;
+  border: solid 2px darkslateblue;
 }
 
 h2 {
@@ -201,5 +199,5 @@ h5 {
   padding-left: 2rem
 }
 span {
-  font-size: 1.3rem
+  font-size: 1rem
 }

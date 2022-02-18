@@ -76,15 +76,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form (with search function) | H | 8hrs|  |  |
-| Working with API | H | 3hrs|  |  |
-| Creating structure of page | H | 4hrs| | |
-| Location Component | H | 6hrs| | |
-| Episodes Component | H | 6hrs| | |
-| Characters Component | H | 6hrs| | |
-| Nav Component (links, routes, navigates) | H | 8hrs| | |
-| CSS structuring (cards, layouts, colors,) | H | 4hrs| | |
-| Total | H | 43hrs| | |
+| Adding Form (with search function) | H | 8hrs| 5 |  |
+| Working with API | H | 3hrs| 4 |  |
+| Creating structure of page | H | 4hrs| 8 | |
+| Location Component | H | 6hrs| 3 | |
+| Episodes Component | H | 6hrs| 3 | |
+| Characters Component | H | 6hrs| 5 | |
+| Nav Component (links, routes, navigates) | H | 8hrs| 6 | |
+| CSS structuring (cards, layouts, colors,) | H | 4hrs| 8 | |
+| Total | H | 43hrs| 42 | |
 
 
 ## Additional Libraries
@@ -95,7 +95,48 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+if (charData[0]) {
+    return (
+      <div className="charBody">
+        <div className="App">
+          <h4>Still haven't found them?</h4>
+          <form onSubmit={handleSubmit}>
+            <input type="text" value={charName} onChange={handleChange} />
+            <input type="submit" value="Squanch It!" />
+          </form>
+          <div className="charCard">
+            <img
+              className="avatar"
+              src={charData[0].image}
+              alt={charData[0].name}
+            />
+            <h2>{charData[0].name}</h2>
+            <h3>{charData[0].species}</h3>
+            <h3>{charData[0].status}</h3>
+            <h3>{charData[0].gender}</h3>
+            <h3>Origin: {charData[0].origin.name}</h3>
+            <h3>Last seen at: {charData[0].location.name}</h3>
+          </div>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+      <div className="charBody">
+        <div className="App">
+          <h4>Searching for Someone?</h4>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="text"
+              placeholder="Look no further..."
+              value={charName}
+              onChange={handleChange}
+            />
+            <input type="submit" value="Squanch It!" />
+          </form>
+        </div>
+      </div>
+    );
+  }
 }
 ```
