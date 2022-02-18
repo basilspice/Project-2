@@ -69,7 +69,7 @@ if (charData[0]) {
     return (
       <div className="charBody">
         <div className="App">
-          <h1>Still haven't found them?</h1>
+          <h4>Still haven't found them?</h4>
           <form onSubmit={handleSubmit}>
             <input type="text" value={charName} onChange={handleChange} />
             <input type="submit" value="Squanch It!" />
@@ -94,7 +94,7 @@ if (charData[0]) {
     return (
       <div className="charBody">
         <div className="App">
-          <h1>Searching for Someone?</h1>
+          <h4>Searching for Someone?</h4>
           <form onSubmit={handleSubmit}>
             <input
               type="text"

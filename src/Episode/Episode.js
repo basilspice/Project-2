@@ -23,12 +23,12 @@ export default function Episode() {
     return (
       <div className='epiBody'>
       <div className="App">
-        <h1>Find another episode</h1>
+        <h4>Find another episode</h4>
         <form onSubmit={handleSubmit}>
           <input type="text" value={epName} onChange={handleChange} />
           <input type="submit" value="Look at me!" />
         </form>
-        <div className="epCard">
+        <div className="epiCard">
           <h2>{epData[0].name}</h2>
           <h3>{epData[0].episode}</h3>
           <h3>{epData[0].air_date}</h3>
