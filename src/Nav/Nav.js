@@ -11,9 +11,9 @@ function Nav() {
   />
   
   </Link>
-  <Link to="/character">Characters</Link>
-  <Link to="/location">Locations</Link>
-  <Link to="/episode">Episodes</Link>
+  <Link to="/character"><h5>Characters</h5></Link>
+  <Link to="/location"><h5>Locations</h5></Link>
+  <Link to="/episode"><h5>Episodes</h5></Link>
 </div>
     )}
 export default Nav;

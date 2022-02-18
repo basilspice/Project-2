@@ -73,7 +73,7 @@ nav {
   display: flex;
  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   
 }
 
@@ -96,9 +96,7 @@ nav img:hover {
 nav a {
   color: white;
   display: inline-block;
-  padding: 20px;
-  margin-left: .5rem;
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
 
 }
@@ -162,7 +160,8 @@ form {
   text-decoration: none;
   position: fixed;
   bottom: 0;
-  margin-left: 90%;
+  margin-left: 85%;
+  
 }
 
 button {
@@ -198,7 +197,9 @@ h4 {
   color: lightgoldenrodyellow;
   text-shadow: 1px 1px 2px purple;
 }
-
+h5 {
+  padding-left: 2rem
+}
 span {
   font-size: 1.3rem
 }
