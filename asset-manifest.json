@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project-2/static/css/main.5f5b288f.css",
-    "main.js": "/Project-2/static/js/main.daeae536.js",
+    "main.css": "/Project-2/static/css/main.e7a658ef.css",
+    "main.js": "/Project-2/static/js/main.c30b1157.js",
     "static/js/787.f6b2eaaf.chunk.js": "/Project-2/static/js/787.f6b2eaaf.chunk.js",
     "static/media/people.jpg": "/Project-2/static/media/people.e83508c3a68d28a73219.jpg",
     "static/media/pointingrick.jpg": "/Project-2/static/media/pointingrick.e523a285dcbc4e658fc2.jpg",
@@ -10,12 +10,12 @@
     "static/media/rick-and-morty-heist-glasses.jpeg": "/Project-2/static/media/rick-and-morty-heist-glasses.bf32bde9454d03f4a78d.jpeg",
     "static/media/rickandmortyportal.jpg": "/Project-2/static/media/rickandmortyportal.5f4b79dcc06de49ed1f1.jpg",
     "index.html": "/Project-2/index.html",
-    "main.5f5b288f.css.map": "/Project-2/static/css/main.5f5b288f.css.map",
-    "main.daeae536.js.map": "/Project-2/static/js/main.daeae536.js.map",
+    "main.e7a658ef.css.map": "/Project-2/static/css/main.e7a658ef.css.map",
+    "main.c30b1157.js.map": "/Project-2/static/js/main.c30b1157.js.map",
     "787.f6b2eaaf.chunk.js.map": "/Project-2/static/js/787.f6b2eaaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f5b288f.css",
-    "static/js/main.daeae536.js"
+    "static/css/main.e7a658ef.css",
+    "static/js/main.c30b1157.js"
   ]
 }
